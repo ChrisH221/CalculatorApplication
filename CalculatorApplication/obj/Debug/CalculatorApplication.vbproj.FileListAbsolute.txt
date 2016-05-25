@@ -1,0 +1,10 @@
+c:\users\chris\documents\visual studio 2012\Projects\CalculatorApplication\CalculatorApplication\bin\Debug\CalculatorApplication.exe.config
+c:\users\chris\documents\visual studio 2012\Projects\CalculatorApplication\CalculatorApplication\bin\Debug\CalculatorApplication.exe
+c:\users\chris\documents\visual studio 2012\Projects\CalculatorApplication\CalculatorApplication\bin\Debug\CalculatorApplication.pdb
+c:\users\chris\documents\visual studio 2012\Projects\CalculatorApplication\CalculatorApplication\bin\Debug\CalculatorApplication.xml
+c:\users\chris\documents\visual studio 2012\Projects\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.Form1.resources
+c:\users\chris\documents\visual studio 2012\Projects\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.Resources.resources
+c:\users\chris\documents\visual studio 2012\Projects\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.vbproj.GenerateResource.Cache
+c:\users\chris\documents\visual studio 2012\Projects\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.exe
+c:\users\chris\documents\visual studio 2012\Projects\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.xml
+c:\users\chris\documents\visual studio 2012\Projects\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.pdb
