@@ -15,7 +15,8 @@
 
     'Setup for assigning a function to each button that represents a number
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim button As Button() = {Button1, Button2, Button3, Button4, Button5, Button6, Button7, Button8, Button9}
+
+        Dim button As Button() = {Button1, Button2, Button3, Button4, Button5, Button6, Button7, Button8, Button9, Button12}
         For i As Integer = 0 To button.Length - 1
             AddHandler button(i).Click, AddressOf numberPress
         Next
@@ -40,34 +41,28 @@
         If RichTextBox1.Text = "Error" Then RichTextBox1.Text = ""
         If sum Then RichTextBox1.Text = ClearAll()
         If nextNum Then
-
-            Number2 = Number2 + button.Text
-            RichTextBox1.Text = Number2 + symbol + Number1
-
-
-        Else
-            Number1 = Number1 + button.Text
-            RichTextBox1.Text = Number1 + squareSymbol
-        End If
-    End Function
-
-    'Slightly different logic required for the button zero OnClick event
-    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
-        If RichTextBox1.Text = "Error" Then RichTextBox1.Text = ""
-        If sum Then RichTextBox1.Text = ClearAll()
-        If nextNum Then
-            If Number2.Length > 0 Then
+            If Number2.Length > 0 And button.Text = "0" Then
                 Number2 = Number2 + "0"
+                RichTextBox1.Text = Number2 + symbol + Number1
+            Else
+                Number2 = Number2 + button.Text
                 RichTextBox1.Text = Number2 + symbol + Number1
             End If
         Else
-            If Number1.Length > 0 Then
+            If Number1.Length > 0 And button.Text = "0" Then
                 Number1 = Number1 + "0"
                 RichTextBox1.Text = RichTextBox1.Text + "0"
-            End If
+            ElseIf Number1.Length = 0 And button.Text = "0" Then
 
+            Else
+
+                Number1 = Number1 + button.Text
+                RichTextBox1.Text = Number1 + squareSymbol
+            End If
+           
         End If
-    End Sub
+    End Function
+
 
     Function doOperation(ByVal sender As Object, ByVal e As EventArgs)
 
@@ -98,36 +93,27 @@
 
 
     End Function
-
-
-    'A Function for resetting the state of global variables
-    Function ClearAll()
+    Function clearAll()
         RichTextBox1.Text = ""
         Number1 = ""
         Number2 = ""
         nextNum = False
         symbol = ""
-        squareSymbol = ""
         sum = False
-        square1 = False
-        square2 = False
-
     End Function
-
 
     'Returns all variables to original state
     Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
-        ClearAll()
+       clearAll
     End Sub
 
-   
     'Equals button features a Select Case for selecting which operation to apply to the inputs
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
         Dim Num1 As Double
         Dim Num2 As Double
         Int32.TryParse(Number1, Num1)
         Int32.TryParse(Number2, Num2)
-      
+
         If Number2.Length >= 1 Then
             Select Case symbol
                 Case " + "
@@ -149,11 +135,11 @@
         nextNum = False
         symbol = ""
         sum = False
-       
+
 
     End Sub
 
 
-    
+
 
 End Class
