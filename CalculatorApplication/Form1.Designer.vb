@@ -39,8 +39,6 @@ Partial Class Form1
         Me.Button17 = New System.Windows.Forms.Button()
         Me.Button18 = New System.Windows.Forms.Button()
         Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button7
@@ -126,7 +124,7 @@ Partial Class Form1
         '
         'Button10
         '
-        Me.Button10.Location = New System.Drawing.Point(179, 178)
+        Me.Button10.Location = New System.Drawing.Point(177, 178)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(98, 38)
         Me.Button10.TabIndex = 17
@@ -135,7 +133,7 @@ Partial Class Form1
         '
         'Button12
         '
-        Me.Button12.Location = New System.Drawing.Point(128, 178)
+        Me.Button12.Location = New System.Drawing.Point(126, 178)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(45, 38)
         Me.Button12.TabIndex = 15
@@ -180,7 +178,7 @@ Partial Class Form1
         '
         'Button18
         '
-        Me.Button18.Location = New System.Drawing.Point(23, 178)
+        Me.Button18.Location = New System.Drawing.Point(23, 134)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(96, 38)
         Me.Button18.TabIndex = 9
@@ -200,32 +198,12 @@ Partial Class Form1
         Me.RichTextBox1.Text = ""
         Me.RichTextBox1.WordWrap = False
         '
-        'Button11
-        '
-        Me.Button11.Location = New System.Drawing.Point(23, 134)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(45, 38)
-        Me.Button11.TabIndex = 21
-        Me.Button11.Text = "√"
-        Me.Button11.UseVisualStyleBackColor = True
-        '
-        'Button15
-        '
-        Me.Button15.Location = New System.Drawing.Point(74, 134)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(45, 38)
-        Me.Button15.TabIndex = 22
-        Me.Button15.Text = ")"
-        Me.Button15.UseVisualStyleBackColor = True
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.ClientSize = New System.Drawing.Size(289, 233)
-        Me.Controls.Add(Me.Button15)
-        Me.Controls.Add(Me.Button11)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button12)
@@ -265,7 +243,5 @@ Partial Class Form1
     Friend WithEvents Button17 As System.Windows.Forms.Button
     Friend WithEvents Button18 As System.Windows.Forms.Button
     Friend WithEvents RichTextBox1 As System.Windows.Forms.RichTextBox
-    Friend WithEvents Button11 As System.Windows.Forms.Button
-    Friend WithEvents Button15 As System.Windows.Forms.Button
 
 End Class

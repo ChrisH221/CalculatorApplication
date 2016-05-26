@@ -8,3 +8,13 @@ c:\users\chris\documents\visual studio 2012\Projects\CalculatorApplication\Calcu
 c:\users\chris\documents\visual studio 2012\Projects\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.exe
 c:\users\chris\documents\visual studio 2012\Projects\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.xml
 c:\users\chris\documents\visual studio 2012\Projects\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.pdb
+C:\Users\Chris\Documents\GitHub\CalculatorApplication\CalculatorApplication\bin\Debug\CalculatorApplication.exe.config
+C:\Users\Chris\Documents\GitHub\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.exe
+C:\Users\Chris\Documents\GitHub\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.xml
+C:\Users\Chris\Documents\GitHub\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.pdb
+C:\Users\Chris\Documents\GitHub\CalculatorApplication\CalculatorApplication\bin\Debug\CalculatorApplication.exe
+C:\Users\Chris\Documents\GitHub\CalculatorApplication\CalculatorApplication\bin\Debug\CalculatorApplication.pdb
+C:\Users\Chris\Documents\GitHub\CalculatorApplication\CalculatorApplication\bin\Debug\CalculatorApplication.xml
+C:\Users\Chris\Documents\GitHub\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.Form1.resources
+C:\Users\Chris\Documents\GitHub\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.Resources.resources
+C:\Users\Chris\Documents\GitHub\CalculatorApplication\CalculatorApplication\obj\Debug\CalculatorApplication.vbproj.GenerateResource.Cache
